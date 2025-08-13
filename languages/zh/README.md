@@ -327,7 +327,7 @@ Slate 框架有两个核心部分：
 
 有关更多信息，请参阅这些文件：
 
-- 使用不同实用程序函数和模板的示例： `Engine/Source/Runtime/Core/Public/Templates/SharedPointerTesting.ini`
+- 使用不同实用程序函数和模板的示例： `Engine/Source/Runtime/Core/Public/Templates/SharedPointerTesting.inl`
 - 虚幻引擎的共享指针系统说明： `Engine/Source/Runtime/Core/Public/Templates/SharedPointer.h`
 
 <a name="slate-units--dpi-scaling"></a>
@@ -1765,7 +1765,7 @@ const TSharedPtr&lt;SWidget&gt;&amp; NewFocusedWidget);
 对象名称 | 标头 | 来源 | 笔记
 :-: | :-: | :-: | :--
 `FEngineLoop`<br> [文档](https://docs.unrealengine.com/latest/INT/API/Runtime/Launch/FEngineLoop/) | LaunchEngineLoop.h | LaunchEngineLoop.cpp | 这是整个虚幻引擎应用的核心，建议只看不碰。
-[多种的] | SharedPointer.h | SharedPointerInternals.h | 这是 Epic 的共享（智能）指针框架所在的位置，还建议查看`SharedPointerTesting.ini` ，例如使用共享指针的示例。
+[多种的] | SharedPointer.h | SharedPointerInternals.h | 这是 Epic 的共享（智能）指针框架所在的位置，还建议查看`SharedPointerTesting.inl` ，例如使用共享指针的示例。
 `FSlateApplication`<br> [文档](https://docs.unrealengine.com/latest/INT/API/Runtime/Slate/Framework/Application/FSlateApplication/) | SlateApplication.h | SlateApplication.cpp |
 `FHittestGrid`<br> [文档](https://docs.unrealengine.com/latest/INT/API/Runtime/SlateCore/Input/FHittestGrid/) | HittestGrid.h | HittestGrid.cpp |
 `SWidget`<br> [文档](https://docs.unrealengine.com/latest/INT/API/Runtime/SlateCore/Widgets/SWidget/) | SWidget.h | SWidget.cpp |

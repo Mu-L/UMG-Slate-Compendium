@@ -322,7 +322,7 @@ Slate Framework состоит из двух основных частей:
 
 Для получения дополнительной информации обратитесь к этим файлам:
 
-- Примеры использования различных служебных функций и шаблонов: `Engine/Source/Runtime/Core/Public/Templates/SharedPointerTesting.ini`
+- Примеры использования различных служебных функций и шаблонов: `Engine/Source/Runtime/Core/Public/Templates/SharedPointerTesting.inl`
 - Объяснение системы общих указателей Unreal Engine: `Engine/Source/Runtime/Core/Public/Templates/SharedPointer.h`
 
 <a name="slate-units--dpi-scaling"></a>
@@ -1640,7 +1640,7 @@ Local Players могут узнать, какой Gamepad ID они исполь
 Имя объекта | Заголовок | Источник | Заметки
 :-: | :-: | :-: | :--
 `FEngineLoop`<br> [Документация](https://docs.unrealengine.com/latest/INT/API/Runtime/Launch/FEngineLoop/) | LaunchEngineLoop.h | LaunchEngineLoop.cpp | Это сердце всего приложения Unreal Engine, рекомендую только смотреть, но не трогать.
-[Несколько] | SharedPointer.h | SharedPointerInternals.h | Здесь находится Epic Shared(Smart) Pointer Framework, также рекомендуем взглянуть на `SharedPointerTesting.ini`, например, на использование общих указателей.
+[Несколько] | SharedPointer.h | SharedPointerInternals.h | Здесь находится Epic Shared(Smart) Pointer Framework, также рекомендуем взглянуть на `SharedPointerTesting.inl`, например, на использование общих указателей.
 `FSlateApplication`<br> [Документация](https://docs.unrealengine.com/latest/INT/API/Runtime/Slate/Framework/Application/FSlateApplication/) | SlateApplication.h | SlateApplication.cpp |
 `FHittestGrid`<br> [Документация](https://docs.unrealengine.com/latest/INT/API/Runtime/SlateCore/Input/FHittestGrid/) | HittestGrid.h | HittestGrid.cpp |
 `SWidget`<br> [Документация](https://docs.unrealengine.com/latest/INT/API/Runtime/SlateCore/Widgets/SWidget/) | SWidget.h | SWidget.cpp |
