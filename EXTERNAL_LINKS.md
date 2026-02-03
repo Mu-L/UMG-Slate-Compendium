@@ -119,6 +119,13 @@ Here is a list of community related links in no particular order(other than base
       Carey Hickling goes through the parts of the Unreal Frame responsible for UI, providing a deep dive into the various UI components and explaining what happens in each part.
     </td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/MikeShatterwell/InputFlowDebugger" target="_blank" rel="noopener noreferrer">Mike Desrosiers Input Flow Debugger Plugin</a>(Github Repository)</td>
+    <td>
+      Created by Mike Desrosiers (online alias: Mike Shatterwell).
+      A fantastic free and open source Input Flow Debugger plugin that was created on UE 5.6(so previous versions may not work with it). Highly recommend using it for debugging input flow.
+    </td>
+  </tr>
   <tr> <!--- Not at all biased for this link... --->
     <td><a href="https://github.com/YawLighthouse/UMG-Slate-ExampleProject" target="_blank" rel="noopener noreferrer">My UMG/Slate Example Project</a>(Github Repository)</td>
     <td>
