@@ -91,6 +91,14 @@ Here are Epic Games specific links, either from individual developers doing a bl
     <td><a href="https://docs.unrealengine.com/latest/INT/using-the-slate-widget-reflector-in-unreal-engine/" target="_blank" rel="noopener noreferrer">Official Documentation for Widget Reflector</a></td> 
   </tr>
   <tr>
+    <td><a href="https://youtu.be/zilYOy1w2b0?si=HBfxj6MskE9DoYOI" target="_blank" rel="noopener noreferrer">Creating Debug Tools with SlateIM</a>(Youtube Video)</td> 
+    <td>
+      (Copied from the youtube video description because why not :P)
+      Introduced in Unreal Engine 5.6, the SlateIM plugin leverages the existing Slate UI framework to allow for quick debug tool development and iteration in a style that tools programmers should find much more familiar than traditional Slate syntax.
+      This talk covers everything from SlateIM features and usage to best practices and the SlateIM roadmap.
+    </td>
+  </tr>
+  <tr>
     <td><a href="https://forums.unrealengine.com/t/smeshwidget-hardware-instanced-slate-meshes-thread/58020/5" target="_blank" rel="noopener noreferrer">Forum Thread about SMeshWidget</a>(Forum Thread)</td>
     <td>
       A forum thread talking about SMeshWidget and has an old UE4 example from Nick Darnell of using it to render particles in UMG/Slate. 
@@ -134,16 +142,15 @@ Here is a list of community related links in no particular order(other than base
     </td>
   </tr>
   <tr>
-    <td><a href="https://joyrok.com/BLOG" target="_blank" rel="noopener noreferrer">JoyRok's Website</a></td>
+    <td><a href="https://joyrok.com" target="_blank" rel="noopener noreferrer">JoyRok's Website</a></td>
     <td>Technical Artist with UMG Tech Art Articles</td>
   </tr>
   <tr>
-    <td><a href="https://benui.ca/" target="_blank" rel="noopener noreferrer">Ben UI's Website</a></td>
-    <td>UI Engineer with UMG/Slate Articles.</td>
-  </tr>
-  <tr>
-    <td><a href="https://codekitten.me/" target="_blank" rel="noopener noreferrer">Alessa "CodeKitten" Baker's Website</a></td>
-    <td>Technical Artist with Unreal Engine Slate Editor & Slate Articles.</td>
+    <td><a href="https://unreal-garden.com/" target="_blank" rel="noopener noreferrer">Unreal Garden Website</a></td>
+    <td>
+      An Unreal Engine learning community with a focus on UI(but we talk about other stuff!). It grew out of Ben UI's website but was transitioned to Unreal Garden since Ben wanted to step away(not for any drama or anything like that, it was for his own personal reasons so please respect his privacy).
+      We also have a discord server! <a href="https://discord.gg/6RPMjejk" target="_blank" rel="noopener noreferrer">Unreal Garden's Discord Server Link</a> 
+    </td>
   </tr>
   <tr>
     <td><a href="https://lxjk.github.io/2019/10/01/How-to-Make-Tools-in-U-E.html" target="_blank" rel="noopener noreferrer">Eric Zhang's Blog on Making Tools in UE4</a></td>
@@ -188,7 +195,7 @@ Here is a list of community related links in no particular order(other than base
   <tr>
     <td><a href="https://youtu.be/MV-uXsM2o0k" target="_blank" rel="noopener noreferrer">"Understanding Unreal's Input Stack #NotGDC"</a>(Youtube Video)</td>
     <td>
-      A NotGDC video I did in <a href="https://t.co/SS05uQxGW0" target="_blank" rel="noopener noreferrer">Ben UI's Discord Server</a> 
+      A NotGDC video I did in <a href="https://discord.gg/6RPMjejk" target="_blank" rel="noopener noreferrer">Unreal Garden's Discord Server</a> 
       talking about Unreal Engine's Input Stack(this was before the UMG/Slate Compendium was released).
     </td>
   </tr>
