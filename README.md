@@ -1368,6 +1368,9 @@ For drawing the widget in screen space it will add the user widget to a second g
 Unreal Engine has development and debug tools for UMG & Slate that assist with creating UI 
 and can be used in both editor and packaged development builds(including consoles).
 
+Some of the community has also created incredible debug tools for the engine that are open source & free, here are some recommended ones:
+- [Mike Desrosiers Input Flow Debugger Plugin](https://github.com/MikeShatterwell/InputFlowDebugger): Made on UE 5.6 (*it may not work on previous versions so buyer beware!*), useful for debugging the engine's input flow.
+
 <a name="debug-console-commands"></a>
 ### 9.1 Debug Console Commands
 
