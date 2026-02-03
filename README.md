@@ -428,6 +428,11 @@ so for example if you’re slate units are set to 1 unit = 1 pixel, and the dpi 
 slate unit would be 1 unit = 2.5 pixels. You can change the DPI scaling depending on the resolution via a curve table in
 the project settings under the “Engine-User Interface” category.
 
+Why do we use Slate Units and DPI Scaling? 
+Primarily to solve the problem of text, it does not automatically scale based on DPI. 
+That is something software developers and game developers have always had to implement to solve the problem of different resolutions.
+You can read more about text in the text section of the compendium: [Text Widget Overview](pages/text_widgets/text_widget_overview.md)
+
 Epic themselves admits it’s not perfect but it works well for most-all use cases. \
 [Epic's AnswerHub explaining Slate Units](https://forums.unrealengine.com/t/what-are-slate-units/310703)
 
