@@ -711,6 +711,10 @@ private:
 The **Slate Widget Examples** (also known as **Slate Test Suite** if using UE4/ **Starship Suite** if using UE5)
 is a collection of Slate built examples such as radio buttons, responsive grid, color wheel, etc.
 
+> In 5.3 its location was changed to have to access only through Unreal Insight's
+> Somebody was kind enough to share a quick tutorial of how to easily access it here:
+> https://hyaniner.com/en/blog/slate-test-suite-location-changed-UE5.3-20240122/
+
 You can access the test suite within the Unreal Editor by going to:
 1. This is different depending on whether you’re using UE4/UE5 
    - UE4: `Window>Developer Tools>Debug Tools` 
